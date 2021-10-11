@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Bitter', serif;
+    font-size: 0.95em;
+    line-height: 2.25em;
+}
+
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1100px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 1em auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* START nav/header styles*/
+.header {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    background: rgb(200, 193, 193);
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    margin-top: 2em;
+    background: rgb(200, 193, 193);
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* END nav/header styles*/
+
+
+/*  START about/image styles   */
+div.container-intro{
+    height: 280px;
+    width: 97.87%;
+    background: whitesmoke;
+    margin: 2em auto;
+}
+
+#col-1 {
+    width: 36.17%;
+    float: right;
+}
+
+#col-2 {
+    width: 61.70%;
+    float: left;
+}
+
+p.about {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+img.bio-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;   
+}
+/*  END about/image styles   */
+
+
+
+/*   START main styles   */
+main {
+    width: 61.70%;
+    height: auto;
+    background: whitesmoke;
+    float: left;
+    margin-bottom: 20px;
+    border: 2px solid darkgray;
+}
+
+
+img.screenshot {
+    width: 90%;
+    display: block;
+    margin: 1em auto;
+    
+}
+/*   END main styles   */
+
+
+
+/*  START class exercise  */
+aside {
+    width: 36.17%;
+    height: 600px;
+    float: right;
+    background: whitesmoke;
+    border: 2px solid darkgray;
+    margin-bottom: 2em;
+}
+
+
+dt {
+    font-weight: bold;
+    padding-left: 4px;
+    background: darkgray;
+}
+
+dd {
+    padding-left: 10%;
+}
+
+
+/*  END class exercise  */
+
+/*  START footer styles  */
+footer {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid rgb(200, 193, 193);
+    border-bottom: 2px solid rgb(200, 193, 193);
+    clear: both;
+}
+
+/*  END footer styles  */
+
