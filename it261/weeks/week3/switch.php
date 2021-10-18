@@ -63,6 +63,7 @@ break;
 
 case 'Sunday' :
 $coffee = '<h2>Sunday is our Green Tea Day!</h2>';
+$color = '#800000';
 $pic = 'green-tea.jpeg';
 $alt = 'green tea';
 $content = '<i><b>Green tea</b> is a type of tea that is made from Camellia sinensis 
@@ -84,6 +85,12 @@ break;
     width:80%;
     margin:0 auto;
 }
+
+#wrapper {
+    background:<?php echo $color;?>
+}
+
+
 </style>    
 </head>
 <body>

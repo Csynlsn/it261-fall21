@@ -15,7 +15,7 @@
         <nav>
             <ul >
 <li><a href="https://kaciecodes.com/it261/index.php">Home</a></li>
-<li><a href="">Switch(HW3)</a></li>
+<li><a href="http://kaciecodes.com/it261/website/daily.php">Switch(HW3)</a></li>
 <li><a href="">Troubleshooting(HW4)</a></li>
 <li><a href="">CalcForm(HW5)</a></li>
 <li><a href="">Contact</a></li>
@@ -61,7 +61,7 @@
      <h2>Weekly Class Exercises</h2>
      <dl>  
         <dt>Week 1</dt>
-            <dd><a href="https://kaciecodes.com/it261/website/index.html">Website</a></dd>
+            <dd><a href="https://kaciecodes.com/it261/website/index.php">Website</a></dd>
         <dt>Week 2</dt>
             <dd><a href="https://kaciecodes.com/it261/weeks/week2/var.php">var.php</a></dd>
             <dd><a href="https://kaciecodes.com/it261/weeks/week2/var2.php">var2.php</a></dd>
@@ -69,8 +69,11 @@
             <dd><a href="https://kaciecodes.com/it261/weeks/week2/currency-logic.php">currency-logic.php</a></dd>
             <dd><a href="https://kaciecodes.com/it261/weeks/week2/heredoc.php">heredoc.php</a></dd>  
         <dt>Week 3</dt>
-            <dd><a href="">In progress</a></dd>
-            <dd><a href="">In progress</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week3/date.php">date.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week3/foreach.php">foreach.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week3/forloop.php">forloop.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week3/if.php">if.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week3/switch.php">switch.php</a></dd>
         <dt>Week 4</dt>
             <dd><a href="">Coming Soon</a></dd>
             <dd><a href="">In progress</a></dd>

@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 body {
@@ -61,22 +62,64 @@ nav a {
     margin-bottom: 20px;
 }
 
-#daily-wrap{
-    display: block;
-    overflow: auto;
-}
+/*start daily styles*/
 
 .img-wrap {
     width: 60%;
-    height: auto;
-
+    margin: 0 auto 1em;
+    max-height:590px;
+    overflow:hidden;
 }
 
 img {
-    max-width:100%;
     display:block;
-
+    max-width: 100%;
+    margin: 1em auto;
+    border:2px solid whitesmoke;
 }
+
+main.daily {
+    background: tan;
+    width:100%;
+    position:relative;
+    margin-top: 1em;
+}
+
+div.daily-list {
+    width:20%;
+    position: absolute;
+    top: 8px;
+    left: -1px;
+}
+
+div.daily-list ul, li {
+    list-style: none;
+    padding:.5em .5em .5em .75em;
+}
+
+div.daily-list a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+div.content {
+    width:60%;
+    background:whitesmoke;
+    margin: 0 auto 2em;
+}
+
+div.content p {
+    padding:.5em;
+    border: 1px dashed lightgrey;
+}
+
+h2, h3 {
+    padding-left:1em;
+}
+
+/*END daily styles*/
+
 
 /* values based on 940px grid: 580/940 = 61.70%*/
 main {
