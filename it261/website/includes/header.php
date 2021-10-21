@@ -8,12 +8,21 @@ $nav['daily.php'] = 'Daily';
 $nav['project.php'] = 'Project';
 $nav['contact.php'] = 'Contact';
 $nav['gallery.php'] = 'Gallery';
+// $nav['daily.php?today=Sunday'] = 'Sunday';
+// $nav['daily.php?today=Monday'] = 'Monday';
+// $nav['daily.php?today=Tuesday'] = 'Tuesday';
+// $nav['daily.php?today=Wednesday'] = 'Wednesday';
+// $nav['daily.php?today=Thursday'] = 'Thursday';
+// $nav['daily.php?today=Friday'] = 'Friday';
+// $nav['daily.php?today=Saturday'] = 'Saturday';
+
 
 switch(THIS_PAGE) {
     case 'index.php'; 
     $title = 'Home page of our IT 261 Website';
     $body = 'home';
     $headline = 'Welcome to our IT 261 Website Home Page';
+    $background_color = ' background-color:#ffffff';
     break;
 
     case 'about.php'; 
@@ -63,10 +72,10 @@ $today = date('l');
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 <link href="css/styles.css" type="text/css" rel= "stylesheet">
 <title> <?php echo $title; ?></title>
- 
+<style></style>
 </head>
 
-<body class="<?php echo $body?>">
+<body class="<?php echo $body;?>" style="<?php echo $background_color;?>" >
     <header>
         <div class="header-inner">
         <a href="index.php">
@@ -92,6 +101,8 @@ foreach($nav as $key => $value) {
  }
     
 }
+
+
 ?>
 </ul>
         </nav>

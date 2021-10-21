@@ -16,13 +16,18 @@
         <li>All Rights Reserved</li>
         <li><a href="">Terms of use</a></li>
         <li><a href="../">Web Design by Kacie</a></li>
-        <li><a href="">HTML Validation</a></li>
-        <li><a href="">CSS Validation</a></li>
+        <li><a id="html-checker" href="#">HTML Validation</a></li>
+        <li><a href="https://jigsaw.w3.org/css-validator/check?uri=referer">CSS Validation</a></li>
     
     </ul>
 
 
 </footer>
+
+<script>
+     //https://tinyurl.com/dynamic-html-checker
+     document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);  
+</script>
     
     </div> <!--END wrapper-->
 </body>

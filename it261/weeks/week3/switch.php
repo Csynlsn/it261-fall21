@@ -31,6 +31,29 @@ $today = date('l');
 //  switch
 
 switch($today) {
+
+
+case 'Monday' :
+$coffee = '<h2>Monday is our London Fog Day!</h2>';
+$pic = 'cap.jpeg';
+$alt = 'london fog';
+ $content = '<i>A <b>cappuccino</b> A London fog is a hot tea-based drink that consists of Earl Grey tea, steamed milk, and vanilla syrup.</i>';
+break;  
+        
+ case 'Tuesday' :
+$coffee = '<h2>Tuesday is our latte day!</h2>';
+$pic = 'latte-small.jpeg';
+$alt = 'latte';
+$content = '<i>A <b>Latte</b> Caffe latte, often shortened to just latte in English, is a coffee drink of Italian origin made with espresso and steamed milk';
+break;  
+
+ case 'Wednesday' :
+$coffee = '<h2>Wednesday is our Chai Tea Day!</h2>';
+$pic = 'chai.png';
+$alt = 'chai tea';
+$content = '<i>A <b>Chai</b> is a tea beverage made by boiling black tea in milk and water with a mixture of aromatic herbs and spices.</i> Originating in India, the beverage has gained worldwide popularity, becoming a feature in many coffee and tea houses.';
+break;  
+
 case 'Thursday' :
 $coffee = '<h2>Thursday is our Cap!</h2>';
 $pic = 'cap.jpeg';
@@ -63,7 +86,7 @@ break;
 
 case 'Sunday' :
 $coffee = '<h2>Sunday is our Green Tea Day!</h2>';
-$color = '#800000';
+// $color = '#800000';
 $pic = 'green-tea.jpeg';
 $alt = 'green tea';
 $content = '<i><b>Green tea</b> is a type of tea that is made from Camellia sinensis 
@@ -74,6 +97,7 @@ break;
 
 }
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -104,6 +128,9 @@ echo $coffee;
 
 <h2>Check Out Our Daily Specials</h2>
 <ul>
+    <li><a href="switch.php?today=Monday">Monday</a></li>
+    <li><a href="switch.php?today=Tuesday">Tuesday</a></li>
+    <li><a href="switch.php?today=Wednesday">Wednesday</a></li>
     <li><a href="switch.php?today=Thursday">Thursday</a></li>
     <li><a href="switch.php?today=Friday">Friday</a></li>
     <li><a href="switch.php?today=Saturday">Saturday</a></li>

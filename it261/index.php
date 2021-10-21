@@ -61,7 +61,7 @@
      <h2>Weekly Class Exercises</h2>
      <dl>  
         <dt>Week 1</dt>
-            <dd><a href="https://kaciecodes.com/it261/website/index.php">Website</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/website/index.php">Website</a></dd>
         <dt>Week 2</dt>
             <dd><a href="https://kaciecodes.com/it261/weeks/week2/var.php">var.php</a></dd>
             <dd><a href="https://kaciecodes.com/it261/weeks/week2/var2.php">var2.php</a></dd>
@@ -75,8 +75,11 @@
             <dd><a href="http://kaciecodes.com/it261/weeks/week3/if.php">if.php</a></dd>
             <dd><a href="http://kaciecodes.com/it261/weeks/week3/switch.php">switch.php</a></dd>
         <dt>Week 4</dt>
-            <dd><a href="">Coming Soon</a></dd>
-            <dd><a href="">In progress</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week4/form1.php">Form 1</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week4/form2.php">Form 2</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week4/form3.php">Form 3</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week4/form-arithmetic.php">Arithmetic Form</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week4/celcius.php">Celcius Conversion Form</a></dd>
         <dt>Week 5</dt>
             <dd><a href="">Coming Soon</a></dd>
             <dd><a href="">In progress</a></dd>

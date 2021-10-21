@@ -13,7 +13,7 @@ body {
 
 header {
     overflow: hidden;
-    background-color: yellow;
+    background-color:lightgray;
 } 
 
 .header-inner {
@@ -25,6 +25,7 @@ header {
     float: left;
     width: 180px;
     margin-bottom: 20px;
+    border:none;
 }
 
 nav {
@@ -58,7 +59,7 @@ nav a {
 
 #hero {
     height: 300px;
-    background: red;
+    background:#808080;
     margin-bottom: 20px;
 }
 
@@ -98,10 +99,14 @@ div.daily-list ul, li {
 }
 
 div.daily-list a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color:black;
     font-weight: bold;
 }
+div.daily-list a:active {
+    color: #ff00d4
+}
+
 
 div.content {
     width:60%;
@@ -114,8 +119,15 @@ div.content p {
     border: 1px dashed lightgrey;
 }
 
-h2, h3 {
+h1, h2, h3 {
     padding-left:1em;
+}
+
+#about {
+   text-align:center;
+   font-size: 1.5em;
+   padding: 0;
+   margin-bottom: 1em;
 }
 
 /*END daily styles*/
@@ -125,7 +137,7 @@ h2, h3 {
 main {
     width: 61.70%;
     height: auto;
-    background: lightblue;
+    background: rgb(215, 232, 238);
     float: left;
     margin-bottom: 20px;
 }
@@ -134,7 +146,7 @@ aside{
     width: 36.17%;
     height: 300px;
     float: right;
-    background: lightcoral;
+    background: rgb(238, 165, 165);
 }
 
 footer {
