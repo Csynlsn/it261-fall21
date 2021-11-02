@@ -15,28 +15,31 @@
 <title>My Adder Assignment</title>
 <style>
  p {
-        color:red;
         text-align: center;
     }
     
     h1 {
-        color:green;
+        color:#BA4CE9;
+        font-style:italic;
+        text-align: center;
     }
     
     h2 {
         font-size:1.5em;
         text-align: center;
+        color:#FFA700;
     }
     
     form {
         width:350px;
         margin:0 auto;
-        border:1px solid red;
-        padding:10px;
-    }
+        border:2px solid #ABB2B9 ;
+        padding:16px;
+     }
     
-    h1 {
-        text-align: center;
+    input, label {
+        margin:2px;
+        padding-left:2px;
     }
     
 </style>
@@ -52,8 +55,8 @@ if (isset($_POST['num1'])) {
 $num1 = $_POST['num1'];
 $num2 = $_POST['num2'];
 $myTotal = $num1 + $num2;
-echo '<h2>You added '.$num1.' and '.$num2.' </h2>';
-echo ' <p style=" color:red;"> and the answer is 
+echo '<h2>You added '.$num1.' and '.$num2.' !!!</h2>';
+echo ' <p style=" color:grey;"> and the answer is 
  '.$myTotal.' !</p>';
  echo'<p><a href="">Reset page</a>';
  }
@@ -84,7 +87,6 @@ echo ' <p style=" color:red;"> and the answer is
 //  15. move all PHP below form in body
 //  16. added method="post" to h1
 //  17. moved <style> tag(and removed < >) inside <p>
-//  18. used dev tools to copy/paste CSS into <style> tags
 -->
         
 

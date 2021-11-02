@@ -16,8 +16,8 @@
             <ul >
 <li><a href="https://kaciecodes.com/it261/index.php">Home</a></li>
 <li><a href="http://kaciecodes.com/it261/website/daily.php">Switch(HW3)</a></li>
-<li><a href="">Troubleshooting(HW4)</a></li>
-<li><a href="">CalcForm(HW5)</a></li>
+<li><a href="http://kaciecodes.com/it261/adder.php">Troubleshooting(HW4)</a></li>
+<li><a href="http://kaciecodes.com/it261/calculator-days-errors-sticky.php">CalcForm(HW5)</a></li>
 <li><a href="">Contact</a></li>
 <li><a href="">Gallery</a></li>
             </ul>
@@ -81,9 +81,18 @@
             <dd><a href="http://kaciecodes.com/it261/weeks/week4/form-arithmetic.php">Arithmetic Form</a></dd>
             <dd><a href="http://kaciecodes.com/it261/weeks/week4/celcius.php">Celcius Conversion Form</a></dd>
         <dt>Week 5</dt>
-            <dd><a href="">Coming Soon</a></dd>
-            <dd><a href="">In progress</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week5/currency1.php">currency1.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week5/currency2.php">currency2.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week5/currency3.php">currency3.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week5/currency4.php">Extra Credit</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week5/null.php">null.php</a></dd>
         <dt>Week 6</dt>
+            <dd><a href="">In progress</a></dd>
+        <dt>Week 7</dt>
+            <dd><a href="">In progress</a></dd>
+        <dt>Week 8</dt>
+            <dd><a href="">In progress</a></dd>
+        <dt>Week 9</dt>
             <dd><a href="">In progress</a></dd>
      </dl>
     
