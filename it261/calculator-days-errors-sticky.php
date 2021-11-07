@@ -90,7 +90,7 @@
 <br><!--sorry-->
 
 <input type="submit" value="Calculate">
-<a href="http://kaciecodes.com/it261/calculator-days-errors-sticky.php"><input type="submit" value="Reset"></a>
+<a href=""><input type="submit" value="Reset"></a>
 </fieldset>
 </form>
 <?php

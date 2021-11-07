@@ -87,7 +87,9 @@
             <dd><a href="http://kaciecodes.com/it261/weeks/week5/currency4.php">Extra Credit</a></dd>
             <dd><a href="http://kaciecodes.com/it261/weeks/week5/null.php">null.php</a></dd>
         <dt>Week 6</dt>
-            <dd><a href="">In progress</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week6/form1.php">Form 1</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week6/functions.php">functions.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week6/implode.php">implode.php</a></dd>
         <dt>Week 7</dt>
             <dd><a href="">In progress</a></dd>
         <dt>Week 8</dt>
