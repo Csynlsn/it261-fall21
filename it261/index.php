@@ -18,7 +18,7 @@
 <li><a href="http://kaciecodes.com/it261/website/daily.php">Switch(HW3)</a></li>
 <li><a href="http://kaciecodes.com/it261/adder.php">Troubleshooting(HW4)</a></li>
 <li><a href="http://kaciecodes.com/it261/calculator-days-errors-sticky.php">CalcForm(HW5)</a></li>
-<li><a href="">Contact</a></li>
+<li><a href="http://kaciecodes.com/it261/website/contact.php">Contact</a></li>
 <li><a href="">Gallery</a></li>
             </ul>
         </nav>
@@ -91,7 +91,9 @@
             <dd><a href="http://kaciecodes.com/it261/weeks/week6/functions.php">functions.php</a></dd>
             <dd><a href="http://kaciecodes.com/it261/weeks/week6/implode.php">implode.php</a></dd>
         <dt>Week 7</dt>
-            <dd><a href="">In progress</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week7/pictures.php">pictures.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week7/random.php">random.php</a></dd>
+            <dd><a href="http://kaciecodes.com/it261/weeks/week7/strings.php">strings.php</a></dd>
         <dt>Week 8</dt>
             <dd><a href="">In progress</a></dd>
         <dt>Week 9</dt>

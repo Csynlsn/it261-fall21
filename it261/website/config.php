@@ -7,6 +7,7 @@ $nav['about.php'] = 'About';
 $nav['daily.php'] = 'Daily';
 $nav['project.php'] = 'Project';
 $nav['contact.php'] = 'Contact';
+// $nav['thx.php'] = 'Thank You';
 $nav['gallery.php'] = 'Gallery';
 
 // create a function for our navigation
@@ -53,7 +54,13 @@ switch(THIS_PAGE) {
     case 'contact.php'; 
     $title = 'Contact page of our IT 261 Website';
     $body = 'contact inner';
-    $headline = 'Welcome to our Contact Page';
+    $headline = 'Welcome to Our Cheese Service Contact Page';
+    break;
+
+    case 'thx.php'; 
+    $title = 'Thank You Page';
+    $body = 'thank you inner';
+    $headline = 'Thanks For Ordering Our Cheese!';
     break;
 
     case 'gallery.php'; 
@@ -72,6 +79,45 @@ $today = date('l');
 
 
 // emailable form php
+
+// random images
+
+function random_pics() {
+
+$photos[0] = 'photo1';
+$photos[1] = 'photo2';
+$photos[2] = 'photo3';
+$photos[3] = 'photo4';
+$photos[4] = 'photo5';
+
+$i = rand(0, 4);
+
+$pic = ''.$photos[$i].'.jpg';
+$random_pic = '<img class="random" src="images/'.$pic.'" alt="'.$photos[$i].'">';
+return $random_pic;
+
+} // end random images
+
+
+
+// random CHEESE images for contact.php
+
+function cheese_pics() {
+
+    $photos[0] = 'cheeseboard';
+    $photos[1] = 'CheeseGrapesWineglasses';
+    $photos[2] = 'cow-sheep-goat';
+    $photos[3] = 'french-cheese';
+    
+    $i = rand(0, 3);
+    
+    $pic = ''.$photos[$i].'.jpeg';
+    $cheese_pic = '<img class="random" src="images/'.$pic.'" alt="'.$photos[$i].'">';
+    return $cheese_pic;
+    
+    } // end random cheese mages
+
+
 
 
 ?>

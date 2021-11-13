@@ -1,0 +1,156 @@
+/* styles for my contact.php */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: rgb(243, 232, 234);
+}
+
+header {
+    overflow: hidden;
+    background-color:lightgray;
+} 
+
+.header-inner {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+#logo {
+    float: left;
+    width: 180px;
+    margin-bottom: 20px;
+    border:none;
+    border-radius: 50%;
+}
+
+nav {
+    height: 50px;
+    float: left;
+    font-family: 'Praise';
+    font-size: 1.5em;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+
+
+nav a {
+    text-decoration: none;
+}
+
+.current {
+    color:red;
+    font-weight: bold;
+}
+
+#wrapper {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+/*  start form styles */
+
+main.contact {
+    width: 60%;
+    height: auto;
+    float: left;
+    /* margin: 20px 20px 20px 40px; */
+} 
+
+aside.contact {
+    position: relative;
+    bottom: 720px;
+    right: 22px;
+    width: 450px;
+    float: right;
+}
+
+div.contact {
+    min-width:1060px;
+}
+
+.contact h1, h2 {
+    text-align: center;
+    margin-bottom:10px;
+}
+
+label {
+    display:block;
+    margin:5px;
+    font-weight: bold;
+}
+
+form {
+    width:500px;
+    margin:20px auto;
+    border: 2px solid black;
+}
+
+form ul {
+    list-style: none;
+}
+
+form li {
+    padding:3px;
+}
+
+fieldset {
+    padding:10px;
+}
+
+.error {
+    color:rgb(240, 40, 237);
+    font-weight: bold;
+    font-style: italic;
+}
+
+div.send {
+    text-align: center;
+    margin: 15px auto;
+}
+/* thx.php */
+
+h1.thx {
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    display:block;
+    max-width: 100%;
+    margin: 1em auto;
+    border:2px solid whitesmoke;
+    border-radius: 6px;
+} 
+
+footer {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px dotted #333;
+    clear: both;
+}
+
+footer ul {
+    float: right;
+}
+
+footer li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}

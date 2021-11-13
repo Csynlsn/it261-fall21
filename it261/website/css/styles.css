@@ -1,4 +1,4 @@
-/* styles for my main website */
+/* styles for my main website and Daily.php  */
 
 * {
     padding: 0;
@@ -26,11 +26,14 @@ header {
     width: 180px;
     margin-bottom: 20px;
     border:none;
+    border-radius: 50%;
 }
 
 nav {
     height: 50px;
     float: left;
+    font-family: 'Praise';
+    font-size: 1.5em;
 }
 
 nav ul {
@@ -58,7 +61,7 @@ nav a {
 }
 
 #hero {
-    height: 300px;
+    height: 350px;
     background:#808080;
     margin-bottom: 20px;
 }
@@ -132,19 +135,36 @@ h1, h2, h3 {
 
 /*END daily styles*/
 
+/* Index.php random images specific styles */
+
+img.random {
+    display:block;
+    height: 350px;
+    width: 100%;
+    border:2px solid whitesmoke;
+    margin-bottom:5px;
+}
+
+img.screenshot{
+    /* display:block; */
+    /* width: 100%; */
+    border:2px solid whitesmoke;
+}
+
 
 /* values based on 940px grid: 580/940 = 61.70%*/
 main {
     width: 61.70%;
-    height: auto;
+    /* height: 450px; */
     background: rgb(215, 232, 238);
     float: left;
     margin-bottom: 20px;
+    padding-top:20px;
 }
 
 aside{
     width: 36.17%;
-    height: 300px;
+    height: 450px;
     float: right;
     background: rgb(238, 165, 165);
 }
