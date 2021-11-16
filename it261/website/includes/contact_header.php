@@ -9,7 +9,7 @@
 <style></style>
 </head>
 
-<body class="<?php echo $body;?>" style="<?php echo $background_color;?>" >
+<body class="<?php //echo $body;?>" style="<?php //echo $background_color;?>" >
     <header>
         <div class="header-inner">
         <a href="index.php">

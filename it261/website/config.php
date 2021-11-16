@@ -54,7 +54,7 @@ switch(THIS_PAGE) {
     case 'contact.php'; 
     $title = 'Contact page of our IT 261 Website';
     $body = 'contact inner';
-    $headline = 'Welcome to Our Cheese Service Contact Page';
+    $headline = 'Welcome to Our Contact Page';
     break;
 
     case 'thx.php'; 
@@ -78,7 +78,150 @@ $today = date('l');
 }
 
 
-// emailable form php
+// emailable form php START
+
+$first_name = '';
+$last_name = '';
+$email = '';
+$phone = '';
+$preference = '';
+$cheese = '';
+$country = '';
+$comments = '';
+$policy = '';
+
+$first_name_Err = '';
+$last_name_Err = '';
+$email_Err = '';
+$phone_Err = '';
+$preference_Err = '';
+$cheese_Err = '';
+$country_Err = '';
+$comments_Err = '';
+$policy_Err = '';
+
+
+
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+    if(empty($_POST['first_name'])) {
+        $first_name_Err = 'To whom are we sending this cheese?';
+    } else {
+        $first_name = $_POST['first_name'];
+    }
+
+    if(empty($_POST['last_name'])) {
+        $last_name_Err = 'Please provide your Last name';
+        unset($_POST['last_name']);
+    } else {
+        $last_name = $_POST['last_name'];
+    }
+
+    if(empty($_POST['email'])) {
+        $email_Err = 'Please provide your email';
+        unset($_POST['email']);
+    } else {
+        $email = $_POST['email'];
+    }
+
+    if(empty($_POST['preference'])) {
+        $preference_Err = 'What style of cheese do you prefer?';
+    } else {
+        $preference = $_POST['preference'];
+    }
+
+    if(empty($_POST['cheese'])) {
+        $cheese_Err = 'Please select your cheeses';
+    } else {
+        $cheese = $_POST['cheese'];
+    }
+
+    if($_POST['country'] == NULL) {
+        $country_Err = 'Please select your country';
+    } else {
+        $country = $_POST['country'];
+    }
+
+    if(empty($_POST['comments'])) {
+        $comments_Err = 'Please tell us your secrets';
+    } else {
+        $comments = $_POST['comments'];
+    }
+
+    if(empty($_POST['policy'])) {
+        $policy_Err = 'You must agree to our terms';
+    } else {
+        $policy = $_POST['policy'];
+    }
+
+    // phone number
+    if(empty($_POST['phone'])) {  
+        $phone_Err = 'We require a valid phone number!';
+        } elseif(array_key_exists('phone', $_POST)){
+        if(!preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $_POST['phone']))
+        { 
+        $phone_Err = 'Invalid format!';
+        unset($_POST['phone']);
+        } else{
+        $phone = $_POST['phone'];
+        }
+        }
+
+// cheese function
+
+  function cheese_time() {
+     $my_return = '';
+     if(!empty($_POST['cheese'])) {
+         $my_return = implode(', ', $_POST['cheese']); 
+     } 
+     return $my_return;  
+    
+    } // close function cheese_time()
+
+
+    if(isset(
+        $_POST['first_name'],
+        $_POST['last_name'],
+        $_POST['email'],
+        $_POST['phone'],
+        $_POST['preference'],
+        $_POST['cheese'],
+        $_POST['country'],
+        $_POST['comments'],
+        $_POST['last_name'],
+        $_POST['policy'] 
+        
+        )) { 
+            
+        $to = 'admin@kaciecodes.com';
+        $subject = 'Test Email' .date('m/d/y') ;
+        $body = '
+        First name: '.$first_name.' '.PHP_EOL.'
+        Last name: '.$last_name.' '.PHP_EOL.'
+        Email: '.$email.' '.PHP_EOL.'
+        Phone: '.$phone.' '.PHP_EOL.'
+        Preference: '.$preference.' '.PHP_EOL.'
+        Cheese: '.cheese_time().' '.PHP_EOL.'
+        Country: '.$country.' '.PHP_EOL.'
+        Comments: '.$comments.' '.PHP_EOL.'
+        ';
+            
+        $headers = array(
+        'From' => 'noreply@kaciecodes.com',
+        'Relpy-to' => ''.$email.'',
+        );
+            
+        mail($to, $subject, $body, $headers);
+        header('Location: thx.php');
+        }   
+
+
+} // end server request method
+
+
+
+// end emailable form php
+
 
 // random images
 

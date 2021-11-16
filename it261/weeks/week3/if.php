@@ -37,3 +37,37 @@ echo $salary;
 } else {
 echo $salary;
 }
+
+function sayHello($greeting) {
+    echo "Hello {$greeting}";
+    }
+
+    sayHello("Good morning");
+echo '<br>';
+
+function add_subt($val1, $val2) {
+    $add = $val1 + $val2;
+    $subt = $val1 - $val2;
+    return array($add, $subt);
+}
+
+$result_array = add_subt(10,5);
+echo "add: " . $result_array[0];
+echo "subtraction action: " . $result_array[1];
+
+
+echo '<br>';
+echo '<br>';
+// area and volume fucntion
+
+function cube_area_volume($side_length) {
+    $area = $side_length * $side_length;
+    $volume = $side_length * $side_length * $side_length;
+    return array($area, $volume);
+}
+    $result_array = cube_area_volume(33);
+
+    echo 'The area is '.$result_array[0].' and the volume is '.$result_array[1].' ';
+  
+    echo print_r($result_array);
+   
