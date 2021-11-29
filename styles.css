@@ -1,18 +1,19 @@
-/* styles for my main website */
+/* styles for my main website and Daily.php  */
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 body {
-    background-color: beige;
+    background-color: rgb(243, 232, 234);
 }
 
 header {
     overflow: hidden;
-    background-color: yellow;
+    background-color:lightgray;
 } 
 
 .header-inner {
@@ -24,12 +25,16 @@ header {
     float: left;
     width: 180px;
     margin-bottom: 20px;
+    border:none;
+    border-radius: 50%;
+    margin-left:15px;
 }
 
 nav {
-    /*background: orange;*/
     height: 50px;
-    float: right;
+    float: left;
+    font-family: 'Praise';
+    font-size: 1.5em;
 }
 
 nav ul {
@@ -46,34 +51,250 @@ nav a {
     text-decoration: none;
 }
 
+.current {
+    color:red;
+    font-weight: bold;
+}
+
 #wrapper {
     max-width: 1100px;
     margin: 20px auto;
 }
 
 #hero {
-    height: 300px;
-    background: red;
+    height: 350px;
+    background:#808080;
     margin-bottom: 20px;
 }
+/*end universial styles*/
+
+/*START PROJECT STYLES*/
+
+
+img.project {
+    display:block;
+    max-width: 100%;
+    height:240px;
+    border:none;
+}
+
+#description {
+    margin-top:5px;
+    margin-bottom:10px;
+    text-align:left;
+}
+
+#return {
+    margin:0 auto;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom:160px;
+}
+
+aside.project {
+    height: auto;
+}
+
+aside.project-view {
+    background:whitesmoke;
+    height:auto;
+}
+
+main.project {
+    background-color:whitesmoke;
+    margin-left:10px;
+}
+
+main.view {
+    background:hotpink;
+    margin: 10px 0px 20px 10px;
+    background-image: linear-gradient(to bottom right, #ed42b1, yellow);
+    padding:50px;
+}
+
+.view li {
+    font-size:18px;
+}
+
+h1.project-view {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h1.project {
+    margin-bottom: 15px;
+    color:#1d0218;
+    text-align:center;
+}
+h3.more-info {
+    margin: 15px;
+}
+
+#about {
+    margin-bottom:20px;
+}
+
+ul.project h3 {
+    margin-top:10px;
+}
+
+hr {
+    margin:15px;
+}
+
+.blurb {
+    font-size:20px;
+}
+/*start daily styles*/
+
+.img-wrap {
+    width: 60%;
+    margin: 0 auto 1em;
+    max-height:590px;
+    overflow:hidden;
+}
+
+img {
+    display:block;
+    max-width: 100%;
+    margin: 1em auto;
+    border:2px solid whitesmoke;
+}
+
+main.daily {
+    background: tan;
+    width:100%;
+    position:relative;
+    margin-top: 1em;
+}
+
+div.daily-list {
+    width:20%;
+    position: absolute;
+    top: 8px;
+    left: -1px;
+}
+
+div.daily-list ul, li {
+    list-style: none;
+    padding:.5em .5em .5em .75em;
+}
+
+div.daily-list a {
+    /* text-decoration: none; */
+    color:black;
+    font-weight: bold;
+}
+div.daily-list a:active {
+    color: #ff00d4
+}
+
+
+div.content {
+    width:60%;
+    background:whitesmoke;
+    margin: 0 auto 2em;
+}
+
+div.content p {
+    padding:.5em;
+    border: 1px dashed lightgrey;
+}
+
+h1, h2, h3 {
+    padding-left:1em;
+}
+
+#about {
+   text-align:center;
+   font-size: 1.5em;
+   padding: 0;
+   margin-bottom: 1em;
+}
+
+/*END daily styles*/
+
+/* ABOUT STYLES */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border:1px solid #ddd;
+  }
+
+main.about {
+    margin:20px auto;
+    width:100%;
+}  
+
+h2, p {
+    text-align:center;
+    margin-bottom:5px;
+}
+
+#about-table {
+    width:80%;
+}
+#about-table-2 {
+    width:50%;
+}
+/* END ABOUT STYLES */
+
+/* GALLERY */
+
+h2.gallery {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.gallery table tr {
+     border:2px solid grey; 
+     margin: 20px auto;
+     width:80%;
+}
+
+/* Index.php random images specific styles */
+
+img.random {
+    display:block;
+    height: 350px;
+    width: 100%;
+    border:2px solid whitesmoke;
+    margin-bottom:5px;
+}
+
+img.screenshot{
+    /* display:block; */
+    /* width: 100%; */
+    border:2px solid whitesmoke;
+}
+
 
 /* values based on 940px grid: 580/940 = 61.70%*/
 main {
     width: 61.70%;
-    height: 400px;
-    background: lightblue;
+    /* height: 450px; */
+    background: rgb(215, 232, 238);
     float: left;
     margin-bottom: 20px;
+    padding-top:20px;
 }
 
 aside{
     width: 36.17%;
-    height: 300px;
+    height: 450px;
     float: right;
-    background: lightcoral;
+    background: rgb(238, 165, 165);
 }
 
 footer {
+    width: 100%;
     height: 50px;
     line-height: 50px;
     border-top: 1px dotted #333;
