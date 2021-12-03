@@ -1,0 +1,92 @@
+/*week 9 class exercise*/
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background:#ceecd7;
+}
+header {
+    background:tan;
+    height:200px;
+}
+.success {
+    float:left;
+    padding:20px;
+    border:2px solid rgb(6, 6, 6);
+}
+.welcome-logout {
+    float:right;
+    padding:20px;
+    border:2px solid rgb(6, 6, 6);
+}
+footer {
+    width:100%;
+    height:80px;
+    background:white;
+    position: absolute;
+    bottom: 0px;
+}
+footer p {
+    text-align: center;
+}
+
+#wrapper {
+    clear:both;
+    width:940px;
+    margin:0 auto;
+}
+img {
+    display:block;
+    max-width: 100%;
+}
+div.img {
+    margin:20px auto;
+    width:60%;
+}
+
+/*register*/
+
+label {
+    display:block;
+    margin-bottom:5px;
+    font-weight: bold;
+    padding:12px;
+    font-size: 19px;
+}
+input {
+    display:block;
+    width:100%;
+    margin-bottom:15px;
+    background: #ceecd7;
+}
+fieldset {
+    padding:10px;
+    border: 4px solid white
+}
+form {
+    width:500px;
+    margin:0 auto;
+    background:rgb(228, 215, 215);
+}
+h1 {
+    text-align: center;
+    margin: 10px 0px;
+    margin-top: 30px;
+}
+h3 {
+    text-align: center;
+    margin:10px 0;
+    font-style: italic;
+}
+.block {
+    display:block;
+    text-align: center;
+    font-style: italic;
+}
+.error {
+    color:#ff8000;
+    font-style: italic;
+    margin:10px 0;
+}
