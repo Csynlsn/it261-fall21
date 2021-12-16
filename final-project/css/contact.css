@@ -1,0 +1,104 @@
+/*CONTACT FORM STYLES*/
+nav a {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+h1 {
+    color: #232323;
+    text-align: center;
+    margin-bottom: -13px;
+}
+ul {
+    list-style-type: none;
+}
+.form-container {
+    margin-bottom: 2em;
+}
+.form-container label {
+    display: block;
+    margin: 0.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.form-container li {
+    padding-left: 0.5em;
+}
+
+.form-container form {
+    width: 60%;
+    margin: 2em auto;
+    border: 2px solid #232323;
+    background-color:#f8f6f9;
+}
+
+.form-container fieldset {
+    padding: 1em;
+}
+
+.form-container input, .form-container textarea {
+    background: transparent;
+    border: 1px solid #232323;
+}
+
+.form-container textarea {
+    display:block;
+    display: block;
+    margin: 2em auto;
+    width: 80%;
+    height: 6em;
+}
+
+.form-container input[type="text"], .form-container input[type="tel"],
+.form-container input[type="email"] {
+    height: 3em;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.form-container input[type=submit] {
+    margin: 0 auto;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 1em 2.5em;
+    border-radius: 5px;
+    color: #f8f6f9;
+    background-color: #272727;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.form-container input[type=checkbox] {
+    margin-right: 1em;
+}
+
+.error {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+    font-size: 1em;
+}
+
+
+
+/*SMALLER VIEWPORTSM*/
+@media all and (min-width:496px) and (max-width:698px) {
+    .form-container form {
+        width: 80%;
+        margin: 2em auto 1em;
+    }
+}
+
+/*MOBILE SPECIFIC CONTACT FORM*/
+@media (max-width:495px) {  /*MOBILE SPECIFIC CONTACT FORM*/
+.form-container form {
+    width: 95%;
+    margin: 2em auto 1em;
+    }
+
+} /*MOBILE SPECIFIC CONTACT FORM*/
+
+
+
+
